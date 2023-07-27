@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYMINDIA - Children Youth Mission India</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+        }
+        
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h2 {
+            font-size: 24px;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        
+        #home img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        
+        .about-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .about-section h3 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .about-section p {
+            line-height: 1.6;
+        }
+        
+        .services-section {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .services-section div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .services-section h3 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .services-section p {
+            line-height: 1.6;
+        }
+        
+        #contact {
+            text-align: center;
+        }
+        
+        #contact h2 {
+            margin-bottom: 20px;
+        }
+        
+        #contact p {
+            line-height: 1.6;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CYMINDIA - Children Youth Mission India</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to CYMINDIA</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCxuYDe4lk6MUVB1BWBRCN672atSU-OlNlIT8SDkB9MRvAvHKuzVn4dBagRfbSf86lWCs&usqp=CAU" alt="CYMINDIA">
+            <p>Founded in Siddapuram Baptist Church on May 9, 2012, CYMINDIA is an organization that focuses on children and youth. Our mission is to promote child welfare, provide educational counseling, and nurture young minds through Sunday School and youth ministry.</p>
+        </section>
+        <section id="about" class="about-section">
+            <h2>About CYMINDIA</h2>
+            <p>CYMINDIA, which stands for Children Youth Mission India, is an organization dedicated to serving children and youth in the community. We believe in the potential of every young individual and strive to provide them with a nurturing and supportive environment.</p>
+        </section>
+        <section id="services" class="services-section">
+            <div>
+                <h3>Sunday School Programs</h3>
+                <p>Our Sunday School programs aim to impart moral values, spirituality, and life skills to children. We provide engaging lessons that encourage active participation and growth in their faith.</p>
+            </div>
+            <div>
+                <h3>Youth Ministry Initiatives</h3>
+                <p>We recognize the importance of empowering young people and helping them discover their unique talents. Our youth ministry initiatives offer mentorship, leadership training, and fun activities for personal development.</p>
+            </div>
+            <div>
+                <h3>Child Welfare Programs</h3>
+                <p>As part of our commitment to child welfare, we actively support underprivileged children, ensuring they have access to essential resources for their well-being and development.</p>
+            </div>
+            <div>
+                <h3>Educational Counseling</h3>
+                <p>Our educational counseling services provide guidance and support to children and youth in making informed decisions about their academic and career paths, fostering a brighter future.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                For inquiries and more information, please contact us at:<br>
+                Email: info@cymindia.org<br>
+                Phone: +919985361362
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 CYMINDIA. All rights reserved.</p>
+    </footer>
+</body>
+</html>
